@@ -1,0 +1,38 @@
+// This styles file is used when advanced styling is required.
+// Give priority to js-styling.
+
+$rgba-main-color: rgba(237, 204, 119, 0.1);
+
+body{
+  font-family: Roboto;
+}
+
+@keyframes wave-animation {
+  0% {
+    background-position: 0 bottom;
+  }
+  100% {
+    background-position: 200px bottom;
+  }
+}
+@keyframes logo-animation {
+  0% {
+    background-size: 200px 0px;
+  }
+  100% {
+    background-size: 200px 100px;
+  }
+}
+.wave {
+  background-color: rgba(0, 0, 0, 0.1);
+  background-image: url("/static/wave2.png");
+  -webkit-filter: drop-shadow(1px 1px 1px #dc5353);
+  filter: drop-shadow(1px 1px 1px #dc5353);
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 0);
+  text-shadow: 0px 0px rgba(255, 255, 255, 0.06);
+  animation: wave-animation 1s infinite linear, logo-animation 12s infinite linear alternate;
+  background-size: 200px 100px;
+  background-repeat: repeat-x;
+  opacity: 1;
+}

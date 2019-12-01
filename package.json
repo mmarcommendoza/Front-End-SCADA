@@ -1,0 +1,27 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "npm run build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.3.2",
+    "@material-ui/icons": "^4.2.1",
+    "@material-ui/styles": "^4.1.2",
+    "@zeit/next-sass": "^1.0.1",
+    "acorn": "^6.2.1",
+    "axios": "^0.19.0",
+    "isomorphic-unfetch": "^3.0.0",
+    "json2mq": "^0.2.0",
+    "next": "latest",
+    "node-sass": "^4.12.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "serverless-mysql": "^1.2.1",
+    "sql-template-strings": "^2.2.2"
+  },
+  "license": "ISC"
+}
