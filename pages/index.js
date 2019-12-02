@@ -32,7 +32,7 @@ const IndexComponent = ({ state }) => {
             <Paper className={classes.paper}><b>Case count:</b> {state.data.pre}</Paper>
           </Grid>
           <Grid item xs={4}>
-            <Paper className={classes.paper}><b>contador acumulado:</b> {state.data.contador_acumulado}</Paper>
+            <Paper className={classes.paper}><b>Total Daily Case Count:</b> {state.data.contador_acumulado}</Paper>
           </Grid>
           <Grid item xs={4}>
             <Paper className={classes.paper}><b>Efficiencia:</b> {state.data.eficiencia}</Paper>
