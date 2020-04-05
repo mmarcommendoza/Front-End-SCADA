@@ -12,7 +12,7 @@
     "@material-ui/icons": "^4.2.1",
     "@material-ui/styles": "^4.1.2",
     "@zeit/next-sass": "^1.0.1",
-    "acorn": "^6.2.1",
+    "acorn": "^6.4.1",
     "axios": "^0.19.0",
     "isomorphic-unfetch": "^3.0.0",
     "json2mq": "^0.2.0",
